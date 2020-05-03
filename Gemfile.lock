@@ -134,7 +134,6 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     multipart-post (2.1.1)
-    mysql2 (0.4.10)
     net-scp (2.0.0)
       net-ssh (>= 2.6.5, < 6.0.0)
     net-ssh (5.2.0)
@@ -144,6 +143,7 @@ GEM
     parallel (1.19.1)
     parser (2.7.0.4)
       ast (~> 2.4.0)
+    pg (1.2.3)
     public_suffix (4.0.3)
     puma (4.3.3)
       nio4r (~> 2.0)
@@ -265,7 +265,7 @@ DEPENDENCIES
   haml-rails
   jwt
   listen
-  mysql2 (>= 0.3.13, < 0.5)
+  pg (>= 0.18, < 2.0)
   puma
   rack-cors
   rails (= 5.1.7)
