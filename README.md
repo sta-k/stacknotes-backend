@@ -6,7 +6,7 @@ You can run your own Standard Notes server and use it with any Standard Notes ap
 
 - Ruby 2.3+
 - Rails 5
-- MySQL 5.6+ database
+- Postgresql
 
 ### Getting started
 
